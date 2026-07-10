@@ -1,9 +1,15 @@
 {
   "name": "sass-loader",
-  "version": "6.0.7",
+  "version": "6.0.7-lineaje-01",
   "description": "Sass loader for webpack",
   "author": "J. Tangelder",
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "main": "lib/loader.js",
   "files": [
     "lib"
@@ -62,7 +68,10 @@
     "webpack",
     "loader"
   ],
-  "repository": "https://github.com/webpack-contrib/sass-loader.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/webpack-contrib-sass-loader"
+  },
   "bugs": "https://github.com/webpack-contrib/sass-loader/issues",
   "homepage": "https://github.com/webpack-contrib/sass-loader"
 }
