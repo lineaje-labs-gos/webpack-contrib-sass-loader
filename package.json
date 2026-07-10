@@ -73,5 +73,11 @@
     "url": "https://github.com/lineaje-labs-gos/webpack-contrib-sass-loader"
   },
   "bugs": "https://github.com/webpack-contrib/sass-loader/issues",
-  "homepage": "https://github.com/webpack-contrib/sass-loader"
+  "homepage": "https://github.com/webpack-contrib/sass-loader",
+  "overrides": {
+    "kind-of": ">=6.0.3"
+  },
+  "resolutions": {
+    "kind-of": ">=6.0.3"
+  }
 }
